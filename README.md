@@ -1,5 +1,61 @@
 # Valid-Calculator
 
+# EN: Code for Generating and Validating Codes
+
+## Description
+
+This C++ program allows generating and validating codes according to specific rules. The program has two main functions:
+1. ~~Generate a valid code.~~ (Not ready yet)
+2. Validate the provided code.
+
+## Code Validity Rules
+
+The code consists of four parts, each part having 4 characters (numbers or letters). The format of the code is `XXXX-XXXX-XXXX-XXXX`. The code's validity is determined by the following rules:
+
+1. The sum of the ASCII values of each part must be divisible by 6.
+2. The entire code must contain at least one lowercase letter.
+3. The entire code must contain at least one uppercase letter.
+4. The entire code must contain at least one digit.
+5. The sum of all digits in the code must not exceed 30.
+6. The code must not contain the letter "P".
+7. The code must contain at least one letter "S".
+8. The code must not start with a letter.
+9. The code must not end with the number 4.
+
+## How to Use
+
+1. Download and open the project in a compatible C++ development environment.
+2. Compile and run the program.
+3. Choose the operation you want to perform:
+    - 1 to generate a valid code.
+    - 2 to validate a provided code.
+4. If you choose option 2, enter the code you want to validate in the format `XXXX-XXXX-XXXX-XXXX`.
+5. The program will display the results of each test and determine whether the code is valid or not.
+
+## Example
+
+Example of a valid code: `1S33-1113-1113-123x`
+
+When validating a code, the program will perform the following tests and display the results:
+
+1. Test for divisibility of the ASCII value sums by 6.
+2. Test for the presence of a lowercase letter.
+3. Test for the presence of an uppercase letter.
+4. Test for the presence of a digit.
+5. Test for the sum of all digits.
+6. Test for the absence of the letter "P".
+7. Test for the presence of the letter "S".
+8. Test to ensure the code does not start with a letter.
+9. Test to ensure the code does not end with the number 4.
+
+## Author
+
+This program was created as a demonstration project for validating and ~~generating codes~~.
+
+If you have any questions or comments, feel free to contact me.
+
+# Kalkulačka-Validity
+
 # CS: Kód pro generování a ověřování platnosti kódů
 
 ## Popis
@@ -54,58 +110,3 @@ Při kontrole platnosti kódu program provede následující testy a zobrazí v�
 Tento program byl vytvořen jako demonstrační projekt pro validaci a ~~generování kódů~~.
 
 Pokud máte jakékoli dotazy nebo připomínky, neváhejte mě kontaktovat.
-
-
-# EN: Code for Generating and Validating Codes
-
-## Description
-
-This C++ program allows generating and validating codes according to specific rules. The program has two main functions:
-1. ~~Generate a valid code.~~ (Not ready yet)
-2. Validate the provided code.
-
-## Code Validity Rules
-
-The code consists of four parts, each part having 4 characters (numbers or letters). The format of the code is `XXXX-XXXX-XXXX-XXXX`. The code's validity is determined by the following rules:
-
-1. The sum of the ASCII values of each part must be divisible by 6.
-2. The entire code must contain at least one lowercase letter.
-3. The entire code must contain at least one uppercase letter.
-4. The entire code must contain at least one digit.
-5. The sum of all digits in the code must not exceed 30.
-6. The code must not contain the letter "P".
-7. The code must contain at least one letter "S".
-8. The code must not start with a letter.
-9. The code must not end with the number 4.
-
-## How to Use
-
-1. Download and open the project in a compatible C++ development environment.
-2. Compile and run the program.
-3. Choose the operation you want to perform:
-    - 1 to generate a valid code.
-    - 2 to validate a provided code.
-4. If you choose option 2, enter the code you want to validate in the format `XXXX-XXXX-XXXX-XXXX`.
-5. The program will display the results of each test and determine whether the code is valid or not.
-
-## Example
-
-Example of a valid code: `1S33-1113-1113-123x`
-
-When validating a code, the program will perform the following tests and display the results:
-
-1. Test for divisibility of the ASCII value sums by 6.
-2. Test for the presence of a lowercase letter.
-3. Test for the presence of an uppercase letter.
-4. Test for the presence of a digit.
-5. Test for the sum of all digits.
-6. Test for the absence of the letter "P".
-7. Test for the presence of the letter "S".
-8. Test to ensure the code does not start with a letter.
-9. Test to ensure the code does not end with the number 4.
-
-## Author
-
-This program was created as a demonstration project for validating and ~~generating codes~~.
-
-If you have any questions or comments, feel free to contact me.
