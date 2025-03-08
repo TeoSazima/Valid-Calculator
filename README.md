@@ -5,7 +5,8 @@
 ## Popis
 
 Tento program v jazyce C++ umožňuje generování a ověřování platnosti kódů podle specifických pravidel. Program má dvě hlavní funkce: 
-~~ 1. Vygenerování platného kódu ~~ (Ještě není hotovo).
+
+1. ~~Vygenerování platného kódu~~ (Ještě není hotovo).
 2. Kontrola platnosti zadaného kódu
 
 ## Pravidla pro platnost kódu
@@ -50,7 +51,7 @@ Při kontrole platnosti kódu program provede následující testy a zobrazí v�
 
 ## Autor
 
-Tento program byl vytvořen jako demonstrační projekt pro validaci a generování kódů.
+Tento program byl vytvořen jako demonstrační projekt pro validaci a ~~generování kódů~~.
 
 Pokud máte jakékoli dotazy nebo připomínky, neváhejte mě kontaktovat.
 
@@ -60,7 +61,7 @@ Pokud máte jakékoli dotazy nebo připomínky, neváhejte mě kontaktovat.
 ## Description
 
 This C++ program allows generating and validating codes according to specific rules. The program has two main functions:
-~~ 1. Generate a valid code. ~~ (Not ready yet)
+1. ~~Generate a valid code.~~ (Not ready yet)
 2. Validate the provided code.
 
 ## Code Validity Rules
@@ -105,6 +106,6 @@ When validating a code, the program will perform the following tests and display
 
 ## Author
 
-This program was created as a demonstration project for validating and generating codes.
+This program was created as a demonstration project for validating and ~~generating codes~~.
 
 If you have any questions or comments, feel free to contact me.
