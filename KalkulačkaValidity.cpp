@@ -97,8 +97,7 @@ int main()
 		if (soucet1 % 6 == 0 && soucet2 % 6 == 0 && soucet3 % 6 == 0 && soucet4 % 6 == 0) {
 			validita[1] = true;
 			cout << "\n1. Test probehl uspesne\n";
-			system("pause");
-			system("cls");
+			
 		}
 		else {
 			cout << "Tento kod je neplatny";
@@ -116,8 +115,6 @@ int main()
 
 				validita[2] = true;
 				cout << "2. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -125,8 +122,6 @@ int main()
 
 				validita[2] = true;
 				cout << "2. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -134,8 +129,6 @@ int main()
 
 				validita[2] = true;
 				cout << "2. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -143,8 +136,7 @@ int main()
 
 				validita[2] = true;
 				cout << "2. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
+				
 				break;
 			}
 
@@ -163,8 +155,6 @@ int main()
 
 				validita[3] = true;
 				cout << "3. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -172,8 +162,6 @@ int main()
 
 				validita[3] = true;
 				cout << "3. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -181,8 +169,6 @@ int main()
 
 				validita[3] = true;
 				cout << "3. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -190,8 +176,6 @@ int main()
 
 				validita[3] = true;
 				cout << "3. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -210,8 +194,6 @@ int main()
 
 				validita[4] = true;
 				cout << "4. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -219,8 +201,6 @@ int main()
 
 				validita[4] = true;
 				cout << "4. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -228,8 +208,6 @@ int main()
 
 				validita[4] = true;
 				cout << "4. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -237,8 +215,6 @@ int main()
 
 				validita[4] = true;
 				cout << "4. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 
 			}
@@ -286,8 +262,6 @@ int main()
 		
 		validita[5] = true;
 		cout << "5. Test probehl uspesne\n";
-		system("pause");
-		system("cls");
 
 		for (int i = 0; i < 4; i++)
 		{
@@ -323,8 +297,6 @@ int main()
 		 
 		validita[6] = true;
 		cout << "6. Test probehl uspesne\n";
-		system("pause");
-		system("cls");
 		
 	
 
@@ -333,8 +305,6 @@ int main()
 
 				validita[7] = true;
 				cout << "7. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -342,8 +312,6 @@ int main()
 
 				validita[7] = true;
 				cout << "7. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -351,8 +319,6 @@ int main()
 
 				validita[7] = true;
 				cout << "7. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -360,8 +326,6 @@ int main()
 
 				validita[7] = true;
 				cout << "7. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
 				break;
 			}
 
@@ -405,8 +369,6 @@ int main()
 			}
 
 			cout << "8. Test probehl uspesne\n";
-			system("pause");
-			system("cls");
 
 			if (cast4[3] == 52) {
 
@@ -417,8 +379,8 @@ int main()
 
 
 				cout << "9. Test probehl uspesne\n";
-				system("pause");
-				system("cls");
+				
+
 
 			
 
